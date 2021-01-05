@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseEdu</title>
+    <script src="js/main.js"></script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 30);
+        }
+
+        function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("ccontainer").style.display = "block";
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+    
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+    
+    button:hover, a:hover {
+      opacity: 0.7;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo" style="text-decoration: none;"><a href="index.html"><font color="#fff">CourseEdu</font></a></div>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    <div class="course-details" style="min-height: 500px;">
+        <div class="content1" style="box-shadow: none;">
+            <div class="card">
+                <img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X.jpg" alt="Bill" style="width:100%">
+                <h1>Bill Gates</h1>
+                <p class="title">CEO & Founder, CourseEdu</p>
+                <p>Harvard University</p>
+                <div style="margin: 24px 0;">
+                  <a href="#"><i class="fa fa-dribbble"></i></a> 
+                  <a href="#"><i class="fa fa-twitter"></i></a>  
+                  <a href="#"><i class="fa fa-linkedin"></i></a>  
+                  <a href="#"><i class="fa fa-facebook"></i></a> 
+                </div>
+                <p><button>Contact</button></p>
+              </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="left-foot">
+                COURSEDU
+            </div>
+
+            <div class="right-foot">
+                <div><br></div>
+                <div><br></div>
+                <div class="links"> 
+                    <a href="index.html" class="link">Home</a>
+                    <a href="aboutus.html" class="link">About Us</a>
+                    <a href="contact.html" class="link">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-foot">
+            Copyrights &copy; Avishkar Hande 2020. All Rights Reserved.
+        </div>
+        <br>
+    </footer>
+
+    
+</body>
+</html>
